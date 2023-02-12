@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+@import "animate.css";
+
+
+$base-color: #fff;
+$second-color: #00defa;
+$nav-items-color: #AAA;
+$third-color: #777;
+$base-font-weigh: normal;
+$title-font-size: 2.813rem;
+$second-font-size: 2.188rem;
+
+
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+a{
+  text-decoration: none;
+  padding: 20px;
+  color: $nav-items-color;
+  font-weight: bold;
+  transition: all 1s;
+}
+
+h1{
+  color: $base-color;
+  font-weight: $base-font-weigh;
+  font-size: $title-font-size;
+}
+.display-hide{
+  visibility: hidden;
+}
+.d-visibile{
+  //visibility: visible;
+  animation: backInRight 1s 0s;
+  animation-fill-mode: forwards;
+}
+.animation2{
+  animation: fadeIn 1s 0s;
+  animation-fill-mode: forwards;
+}
+.min-h{
+  min-height: 50vh;
+}
+.navbar{
+  box-shadow: 3px 3px 3px 1px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+.nav-logo{
+  width: 5rem;
+  filter: drop-shadow(2px 2px 1px #696868)
+}
+.component-title{
+  color: $second-color;
+  font-weight: $base-font-weigh;
+  font-size: $second-font-size;
+  //animation: backInRight 1s 1.2s;
+  //animation-fill-mode: forwards;
+}
+.component-animation{
+  animation: backInRight 1.5s 1.2s;
+  animation-fill-mode: forwards;
+}
+.component-text{
+  text-align: center;
+  color: #888888;
+  line-height: 1.8;
+}
+.services-card{
+  min-height: 10rem;
+
+}
+.serv-text{
+  font-size: 1rem;
+}
+.servicio-info{
+  border: 1px solid #001972;
+  border-radius: 15px;
+  margin: auto;
+  font-size: 15px;
+  color: #777777;
+  line-height: 1.8;
+  padding: 3rem;
+  margin: 2rem auto
+}
+.servicio-info-title{
+  font-size: 1.5rem;
+  color: $third-color;
+  line-height: 1.8;
+  font-weight: bold;
+}
+.footer-text{
+  width: 100%;
+  padding: 0 5rem;
+  font-size: 2.4rem
+}
+.img-card{
+  width: 10rem;
+  max-width: 10rem;
+}
+.border{
+  border: 2px solid red!important;
+}

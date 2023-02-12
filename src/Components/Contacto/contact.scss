@@ -1,0 +1,25 @@
+.containerContact {
+  max-width: 100%;
+  width: 100vw !important;
+}
+.footer-background{
+  background-color: rgb(6, 6, 97);
+
+  img{
+    filter: invert(1)
+  }
+}
+
+
+
+@media (max-width: 700px) {
+  .contact-info{
+    margin-top: 2rem;
+
+    
+  }
+
+  h5{
+    font-size: 1rem
+  }
+}

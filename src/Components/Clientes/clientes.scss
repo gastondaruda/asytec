@@ -1,0 +1,33 @@
+.clientContainer{
+    height: 100vh;
+    padding: 0 10rem;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    align-items: center;
+    padding-top: 3rem;
+
+    .client-item{
+        margin: 0 2rem;
+        filter: grayscale(100%) opacity(70%);
+        transition: .3s;
+        cursor: pointer;
+        &:hover{
+            filter:grayscale(0%)
+        }
+    }
+}
+
+
+@media (max-width: 700px) {
+    .clientContainer{
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .clientContainer .client-item{
+        width: 5rem;
+        margin: 1rem;
+    }
+ }
+
+
+

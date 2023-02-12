@@ -1,0 +1,19 @@
+.container-index{
+    position: relative;
+    display: inline-block;
+    text-align: center;
+    .bg-text{
+        top: 50%;
+        width: 100%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+
+@media (max-width: 600px) {
+    .container-index .bg-text{
+        top: 40%;
+        left: 0;
+        font-size: 2rem;
+    }
+}
