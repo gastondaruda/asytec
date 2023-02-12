@@ -52,11 +52,7 @@ export default function Contacto(){
                     <h5>Envianos tu CV a <strong>rrhh@asytec.com</strong></h5>
                 </Col>
             </Row>
-            <Row>
-                <Col  className="d-flex align-items-center justify-content-center pt-4 pb-4 footer-background">   
-                    <img src={navLogo} alt="footer-logo" />
-                </Col>
-            </Row>
+           
         </Container>
         
         </>

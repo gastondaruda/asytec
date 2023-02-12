@@ -18,7 +18,7 @@ useEffect(() => {
 }, [])
 
     return(
-        <Container>
+        <Container className="min-h">
             <Row>
                 <Col>
                     <div className="w-100 d-flex justify-content-center align-items-center flex-column pl-5 pr-5 nosotros-component">

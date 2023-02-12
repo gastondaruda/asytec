@@ -32,8 +32,8 @@ const findInfo = (nombre) => {
 
     return(
         <div className="w-100 h-100 d-flex flex-wrap justify-content-around align-items-center flex-column">
+            <Container fluid="lg" className="w-100 min-h d-flex align-items-center justify-content-center flex-column">
             <h3 className={css ? "display-hide" : "d-visibile component-title pt-5 font-bold"}>Servicios</h3>
-            <Container fluid="lg" className="w-100 min-h">
                 <Row className="">
                     {
                         arr.map((ser) => 
@@ -62,7 +62,7 @@ const findInfo = (nombre) => {
             </Container>
             <div className="w-100 h-100 position-relative container-index">
                 <img src={bg} alt="background" className=""/>
-                <h1 className="position-absolute bg-text footer-text">Brindamos servicios personalizados de acuerdo a las necesidades de cada cliente.</h1>
+                <h1 className="position-absolute bg-text2 footer-text">Brindamos servicios personalizados de acuerdo a las necesidades de cada cliente.</h1>
             </div>
         </div>
     )
