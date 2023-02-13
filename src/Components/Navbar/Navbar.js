@@ -7,7 +7,7 @@ export default function NavbarComponent(){
     return(
         <>
         {['xl'].map((expand) => (
-        <Navbar collapseOnSelect key={expand} bg="light" expand={expand} className="navbar">
+        <Navbar collapseOnSelect key={expand} bg="light" expand={expand} className="navbar" fixed="top">
             <Container fluid>
                 <Navbar.Brand href="#/">
                     <NavLink to="/">
@@ -22,7 +22,7 @@ export default function NavbarComponent(){
                 >
                 <Offcanvas.Header closeButton>
                     <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                    Offcanvas
+                    Gaston Da Ruda - Frontend developer
                     </Offcanvas.Title>
                 </Offcanvas.Header>
                 <Offcanvas.Body>

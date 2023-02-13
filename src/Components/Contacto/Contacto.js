@@ -15,7 +15,7 @@ export default function Contacto(){
     }, [])
     return(
         <>
-        <Container className="containerContact" lg="fluid">
+        <Container className="containerContact pt-5" lg="fluid">
             <Row>
                 <Col className="d-flex aling-items-center justify-content-center">
                     <h3 className={css ? "display-hide" : "component-title pt-5 pb-3"}>Contacto</h3>

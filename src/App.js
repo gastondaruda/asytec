@@ -11,6 +11,7 @@ import './App.scss';
 function App() {
   return (
     <HashRouter>
+      <div className="app">
       <NavbarComponent />
       <Routes>
         <Route path="/" element={<Index />} />
@@ -20,6 +21,7 @@ function App() {
         <Route path="/Contacto" element={<Contacto />} />
       </Routes>
       <Footer/>
+      </div>
     </HashRouter>
   );
 }

@@ -13,7 +13,7 @@ export default function Footer(){
                 </Col>
             </Row>
             <Row>
-                <Col xs={12} className="d-flex align-items-center justify-content-center">
+                <Col xs={12} className="d-flex align-items-center justify-content-center footer-title">
                     <h3>Proyecto realizado por Gastón Da Ruda - Frontend Developer Jr</h3>
                 </Col>
                 <Col xs={12} className="d-flex align-items-center justify-content-center">
