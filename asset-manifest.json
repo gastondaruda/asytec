@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/asytec/static/css/main.ab587d5d.css",
+    "main.css": "/asytec/static/css/main.5b13749c.css",
     "main.js": "/asytec/static/js/main.45ff90f8.js",
     "static/js/787.b23b478d.chunk.js": "/asytec/static/js/787.b23b478d.chunk.js",
     "static/media/FrontendDeveloperJr.pdf": "/asytec/static/media/FrontendDeveloperJr.08b76cf7fab1ae0aaf20.pdf",
     "static/media/fondo2.png": "/asytec/static/media/fondo2.5b613774be1217741e5c.png",
     "static/media/fondo1.jpg": "/asytec/static/media/fondo1.a920c24cd1e2f90f5597.jpg",
     "index.html": "/asytec/index.html",
-    "main.ab587d5d.css.map": "/asytec/static/css/main.ab587d5d.css.map",
+    "main.5b13749c.css.map": "/asytec/static/css/main.5b13749c.css.map",
     "main.45ff90f8.js.map": "/asytec/static/js/main.45ff90f8.js.map",
     "787.b23b478d.chunk.js.map": "/asytec/static/js/787.b23b478d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ab587d5d.css",
+    "static/css/main.5b13749c.css",
     "static/js/main.45ff90f8.js"
   ]
 }
