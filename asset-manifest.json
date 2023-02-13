@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/asytec/static/css/main.c6eb1fd8.css",
-    "main.js": "/asytec/static/js/main.43f07a88.js",
+    "main.css": "/asytec/static/css/main.d5022a92.css",
+    "main.js": "/asytec/static/js/main.bb671eec.js",
     "static/js/787.b23b478d.chunk.js": "/asytec/static/js/787.b23b478d.chunk.js",
     "static/media/FrontendDeveloperJr.pdf": "/asytec/static/media/FrontendDeveloperJr.08b76cf7fab1ae0aaf20.pdf",
     "static/media/fondo2.png": "/asytec/static/media/fondo2.5b613774be1217741e5c.png",
@@ -9,12 +9,12 @@
     "static/media/23.png": "/asytec/static/media/23.7db79265ee81b54d3472.png",
     "static/media/20.png": "/asytec/static/media/20.1cc6a9cc1950445ef551.png",
     "index.html": "/asytec/index.html",
-    "main.c6eb1fd8.css.map": "/asytec/static/css/main.c6eb1fd8.css.map",
-    "main.43f07a88.js.map": "/asytec/static/js/main.43f07a88.js.map",
+    "main.d5022a92.css.map": "/asytec/static/css/main.d5022a92.css.map",
+    "main.bb671eec.js.map": "/asytec/static/js/main.bb671eec.js.map",
     "787.b23b478d.chunk.js.map": "/asytec/static/js/787.b23b478d.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6eb1fd8.css",
-    "static/js/main.43f07a88.js"
+    "static/css/main.d5022a92.css",
+    "static/js/main.bb671eec.js"
   ]
 }
